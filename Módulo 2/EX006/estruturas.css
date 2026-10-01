@@ -1,0 +1,57 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap'); /*Letra titulo*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap'); /*Letra geral*/
+
+/*body*/
+body {
+    font: 400 1em "Quicksand", sans-serif;
+    color: #E3DEB1;
+    background-color: #5A2D63;
+}
+
+/*header*/
+h1 {
+    font: 400 5em "Julius Sans One", sans-serif;
+    text-align: center;
+    text-shadow: 2px 5px 5px #FDB253;
+    margin: 10px auto;
+}
+
+header ul{
+    list-style-type: none;
+    display: block;
+    text-align: center;
+    background-color: #FC60B8;
+    margin: 2px auto;
+    padding: 2em auto;
+    border: 2px solid #DA8243;
+}
+
+header li{
+    display: inline;
+    margin-right: 3em;
+}
+
+/*tags*/
+.quadrado {
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    height: 35%;
+    width: 20%;
+    background-color: #E3DEB1;
+    color: black;
+    padding: 1.5em;
+    font: 400 1.2em "Quicksand", sans-serif;
+    margin: 1em;
+    border: 2px solid #DA8243;
+    box-shadow: 10px 10px 15px #6d033fc7;
+    border-radius: 20px;
+}
+
+.quadrado h2{
+    font: 400 1.5em "Julius Sans One", sans-serif;
+    text-align: center;
+}
